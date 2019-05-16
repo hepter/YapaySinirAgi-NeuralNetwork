@@ -1,6 +1,6 @@
 
 
-# Bulanık Mantık Çamaşır makinesi uygulaması
+# YSA - Neural Network Backpropagation
 Geri Yayılımlı Yapay Zeka Aloritması - Neural Network Backpropagation 
 
 
