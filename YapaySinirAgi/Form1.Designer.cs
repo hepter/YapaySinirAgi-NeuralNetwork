@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint16 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(1D, 50D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint17 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, 50D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint18 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(3D, 78D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint19 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(4D, 88D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint20 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(5D, 24D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(1D, 50D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, 50D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(3D, 78D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(4D, 88D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(5D, 24D);
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -104,22 +104,22 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button46 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.button42 = new System.Windows.Forms.Button();
             this.button43 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button45 = new System.Windows.Forms.Button();
             this.button44 = new System.Windows.Forms.Button();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonBase = new System.Windows.Forms.Button();
             this.buttonArrow = new System.Windows.Forms.Button();
             this.button48 = new System.Windows.Forms.Button();
             this.button49 = new System.Windows.Forms.Button();
             this.buttonBase2 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -135,8 +135,8 @@
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -938,60 +938,60 @@
             // 
             // chart1
             // 
-            chartArea4.Area3DStyle.Enable3D = true;
-            chartArea4.Area3DStyle.Inclination = 20;
-            chartArea4.Area3DStyle.IsRightAngleAxes = false;
-            chartArea4.Area3DStyle.Rotation = 20;
-            chartArea4.Area3DStyle.WallWidth = 5;
-            chartArea4.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.False;
-            chartArea4.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea4.AxisX.TitleAlignment = System.Drawing.StringAlignment.Far;
-            chartArea4.AxisY.Interval = 10D;
-            chartArea4.AxisY.LineColor = System.Drawing.Color.White;
-            chartArea4.AxisY.Maximum = 100D;
-            chartArea4.AxisY.ScaleBreakStyle.Spacing = 1D;
-            chartArea4.Name = "ChartArea1";
-            chartArea4.Position.Auto = false;
-            chartArea4.Position.Height = 90F;
-            chartArea4.Position.Width = 100F;
-            chartArea4.Position.Y = 10F;
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Tahminler";
-            this.chart1.Legends.Add(legend4);
+            chartArea1.Area3DStyle.Enable3D = true;
+            chartArea1.Area3DStyle.Inclination = 20;
+            chartArea1.Area3DStyle.IsRightAngleAxes = false;
+            chartArea1.Area3DStyle.Rotation = 20;
+            chartArea1.Area3DStyle.WallWidth = 5;
+            chartArea1.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.False;
+            chartArea1.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea1.AxisX.TitleAlignment = System.Drawing.StringAlignment.Far;
+            chartArea1.AxisY.Interval = 10D;
+            chartArea1.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.Maximum = 100D;
+            chartArea1.AxisY.ScaleBreakStyle.Spacing = 1D;
+            chartArea1.Name = "ChartArea1";
+            chartArea1.Position.Auto = false;
+            chartArea1.Position.Height = 90F;
+            chartArea1.Position.Width = 100F;
+            chartArea1.Position.Y = 10F;
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Tahminler";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(482, 7);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.Label = "Tahminler";
-            series4.LabelFormat = "Tahminler";
-            series4.LabelToolTip = "Tahminler";
-            series4.Legend = "Tahminler";
-            series4.LegendText = "Tahminler";
-            series4.Name = "Series1";
-            dataPoint16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataPoint16.IsValueShownAsLabel = true;
-            dataPoint16.Label = "A";
-            dataPoint16.LabelForeColor = System.Drawing.Color.Red;
-            dataPoint16.LabelFormat = " ";
-            dataPoint17.AxisLabel = "B";
-            dataPoint17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataPoint17.Label = "B";
-            dataPoint17.LabelForeColor = System.Drawing.Color.Red;
-            dataPoint18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataPoint18.Label = "C";
-            dataPoint18.LabelForeColor = System.Drawing.Color.Red;
-            dataPoint19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataPoint19.Label = "D";
-            dataPoint19.LabelForeColor = System.Drawing.Color.Red;
-            dataPoint20.AxisLabel = "E";
-            dataPoint20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataPoint20.Label = "E";
-            dataPoint20.LabelForeColor = System.Drawing.Color.Red;
-            series4.Points.Add(dataPoint16);
-            series4.Points.Add(dataPoint17);
-            series4.Points.Add(dataPoint18);
-            series4.Points.Add(dataPoint19);
-            series4.Points.Add(dataPoint20);
-            this.chart1.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.Label = "Tahminler";
+            series1.LabelFormat = "Tahminler";
+            series1.LabelToolTip = "Tahminler";
+            series1.Legend = "Tahminler";
+            series1.LegendText = "Tahminler";
+            series1.Name = "Series1";
+            dataPoint1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataPoint1.IsValueShownAsLabel = true;
+            dataPoint1.Label = "A";
+            dataPoint1.LabelForeColor = System.Drawing.Color.Red;
+            dataPoint1.LabelFormat = " ";
+            dataPoint2.AxisLabel = "B";
+            dataPoint2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataPoint2.Label = "B";
+            dataPoint2.LabelForeColor = System.Drawing.Color.Red;
+            dataPoint3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataPoint3.Label = "C";
+            dataPoint3.LabelForeColor = System.Drawing.Color.Red;
+            dataPoint4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataPoint4.Label = "D";
+            dataPoint4.LabelForeColor = System.Drawing.Color.Red;
+            dataPoint5.AxisLabel = "E";
+            dataPoint5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataPoint5.Label = "E";
+            dataPoint5.LabelForeColor = System.Drawing.Color.Red;
+            series1.Points.Add(dataPoint1);
+            series1.Points.Add(dataPoint2);
+            series1.Points.Add(dataPoint3);
+            series1.Points.Add(dataPoint4);
+            series1.Points.Add(dataPoint5);
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(256, 378);
             this.chart1.TabIndex = 50;
             this.chart1.Text = "chart1";
@@ -1111,6 +1111,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Panel";
             // 
+            // button46
+            // 
+            this.button46.Location = new System.Drawing.Point(199, 23);
+            this.button46.Margin = new System.Windows.Forms.Padding(2);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(132, 27);
+            this.button46.TabIndex = 2;
+            this.button46.Text = "Eğitimi Sıfırla";
+            this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.Button46_Click);
+            // 
             // button36
             // 
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1185,6 +1196,17 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Katmanlar";
             // 
+            // button45
+            // 
+            this.button45.Location = new System.Drawing.Point(66, 53);
+            this.button45.Margin = new System.Windows.Forms.Padding(2);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(57, 30);
+            this.button45.TabIndex = 2;
+            this.button45.Text = "Sil";
+            this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.Button45_Click);
+            // 
             // button44
             // 
             this.button44.Location = new System.Drawing.Point(5, 53);
@@ -1196,29 +1218,6 @@
             this.button44.UseVisualStyleBackColor = true;
             this.button44.Click += new System.EventHandler(this.Button44_Click);
             // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(127, 53);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(2);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(69, 26);
-            this.numericUpDown3.TabIndex = 1;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            35,
-            0,
-            0,
-            0});
-            // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.AllowDrop = true;
@@ -1229,7 +1228,7 @@
             this.flowLayoutPanel2.Controls.Add(this.button49);
             this.flowLayoutPanel2.Controls.Add(this.buttonBase2);
             this.flowLayoutPanel2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(5, 13);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(5, 16);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(333, 36);
@@ -1308,27 +1307,28 @@
             this.buttonBase2.Text = "5";
             this.buttonBase2.UseVisualStyleBackColor = true;
             // 
-            // button45
+            // numericUpDown3
             // 
-            this.button45.Location = new System.Drawing.Point(66, 53);
-            this.button45.Margin = new System.Windows.Forms.Padding(2);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(57, 30);
-            this.button45.TabIndex = 2;
-            this.button45.Text = "Sil";
-            this.button45.UseVisualStyleBackColor = true;
-            this.button45.Click += new System.EventHandler(this.Button45_Click);
-            // 
-            // button46
-            // 
-            this.button46.Location = new System.Drawing.Point(199, 23);
-            this.button46.Margin = new System.Windows.Forms.Padding(2);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(132, 27);
-            this.button46.TabIndex = 2;
-            this.button46.Text = "Eğitimi Sıfırla";
-            this.button46.UseVisualStyleBackColor = true;
-            this.button46.Click += new System.EventHandler(this.Button46_Click);
+            this.numericUpDown3.Location = new System.Drawing.Point(127, 53);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(2);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDown3.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(69, 26);
+            this.numericUpDown3.TabIndex = 1;
+            this.numericUpDown3.Value = new decimal(new int[] {
+            35,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
@@ -1375,8 +1375,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.ResumeLayout(false);
 
         }
