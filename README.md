@@ -6,4 +6,4 @@ Geri Yayılımlı Yapay Zeka Aloritması - Neural Network Backpropagation
 
 
 ##### GUI
-![GUI](/gui.png)
+![GUI](/YapaySinirAgi/gui.png)
